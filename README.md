@@ -1,4 +1,5 @@
 CBOW Word2Vec Model with PyTorch
+
 This project walks you through the process of implementing the Continuous Bag of Words (CBOW) model using Word2Vec and PyTorch. The primary objective is to train a neural network to generate word embeddings from a given dataset (Wikipedia), experiment with the embeddings, and test the performance on a word analogy dataset.
 
 Project Overview:

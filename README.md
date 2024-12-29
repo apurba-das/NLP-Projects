@@ -5,27 +5,27 @@ Project Overview:
 
 We will follow these steps to implement the project:
 
-Install Necessary Libraries:
+1. Install Necessary Libraries:
 We will need a few packages to load the dataset, preprocess text, and train the model.
 We'll use PyTorch for building the model.
 
-Dataset Preprocessing:
+2. Dataset Preprocessing:
 We'll load the Wikitext dataset (which is a subset of Wikipedia), preprocess it to clean and remove unnecessary elements, and generate the vocabulary and frequency distribution.
 
-Vocabulary Creation:
+3. Vocabulary Creation:
 Convert words into integer indices using a word-to-index dictionary.
 
-Generate Training Data:
+4. Generate Training Data:
 Using the context window and the word-to-index mapping, generate pairs of surrounding words (context) and target words for training.
 
-Building the CBOW Model:
+5. Building the CBOW Model:
 Implement the CBOW model which will take surrounding words and predict the center word (target word).
 
-Training the Model:
+6. Training the Model:
 Use Cross-Entropy Loss and the Adam optimizer to train the model.
 
-Evaluating the Model:
+7. Evaluating the Model:
 Use word similarity metrics and the Google Analogy dataset to test the quality of the word embeddings.
 
-Experimentation:
+8. Experimentation:
 We experiment by changing the training corpus or testing on different datasets.

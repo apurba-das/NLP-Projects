@@ -14,7 +14,7 @@ This repository contains a collection of Natural Language Processing (NLP) proje
 
 **Key Outcomes/Achievements:**
 
-*   Achieved F1 score of 0.86 on Dataset Name: Amazon reviews.
+*   Achieved F1 score of 0.86 on Amazon reviews dataset
 *   Demonstrated understanding of text preprocessing techniques (e.g., tokenization, stemming/lemmatization) and feature extraction.
 
 

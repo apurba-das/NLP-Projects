@@ -4,22 +4,19 @@ This repository contains a collection of Natural Language Processing (NLP) proje
 
 ## Project 1: Sentiment Analysis using Bag of Words
 
-**Description:** Implemented a sentiment analysis model to classify text as positive, negative, or neutral using the Bag of Words technique.
+**Description:** Implemented a sentiment analysis model to classify text reviews as positive or negative using the Bag of Words technique.
 
 **Technologies Used:**
 
 *   Python
-*   NLTK/spaCy
+*   NLTK
 *   scikit-learn
 
 **Key Outcomes/Achievements:**
 
-*   Achieved [X]% accuracy on [Dataset Name, e.g., IMDB movie reviews].
+*   Achieved F1 score of 0.86 on Dataset Name: Amazon reviews.
 *   Demonstrated understanding of text preprocessing techniques (e.g., tokenization, stemming/lemmatization) and feature extraction.
 
-**Code:** [Link to code file/directory]
-
-**Dataset:** [Link to dataset or description of how to obtain it]
 
 ## Project 2: Word Embeddings with CBOW and Word2Vec
 
@@ -29,17 +26,12 @@ This repository contains a collection of Natural Language Processing (NLP) proje
 
 *   Python
 *   Gensim
-*   TensorFlow/PyTorch (if applicable)
+*   PyTorch
 
 **Key Outcomes/Achievements:**
 
 *   Gained practical experience with word embedding techniques.
-*   Visualized semantic relationships using dimensionality reduction techniques (e.g., t-SNE).
-*   [Optional: Mention if these embeddings were used in another project. E.g., "These embeddings were subsequently used to improve performance in a text classification task."]
-
-**Code:** [Link to code file/directory]
-
-**Dataset:** [Link to dataset or description of how to obtain it]
+*   Visualized semantic relationships using dimensionality reduction techniques (t-SNE).
 
 ## Project 3: Machine Translation using Transformers
 
@@ -48,18 +40,13 @@ This repository contains a collection of Natural Language Processing (NLP) proje
 **Technologies Used:**
 
 *   Python
-*   TensorFlow/PyTorch
+*   PyTorch
 *   Transformers library (Hugging Face Transformers)
-*   [Dataset Name, e.g., WMT, IWSLT]
 
 **Key Outcomes/Achievements:**
 
-*   Implemented a Transformer-based translation model achieving [BLEU score or other metric, if available].
 *   Demonstrated understanding of attention mechanisms and sequence-to-sequence modeling.
 
-**Code:** [Link to code file/directory]
-
-**Dataset:** [Link to dataset or description of how to obtain it]
 
 ## Project 4: Human vs. Machine Text Classification
 
@@ -70,27 +57,10 @@ This repository contains a collection of Natural Language Processing (NLP) proje
 *   Python
 *   scikit-learn
 *   Transformers library (Hugging Face Transformers)
-*   NLTK/spaCy
+*   NLTK
 
 **Key Outcomes/Achievements:**
 
 *   Compared the performance of traditional machine learning models with pre-trained language models, demonstrating the performance gains of transformers.
-*   Achieved [X]% accuracy with BERT/DistilBERT.
+*   Achieved 97% accuracy with BERT/DistilBERT.
 *   Analyzed the strengths and weaknesses of each model.
-
-**Code:** [Link to code file/directory]
-
-**Dataset:** [Link to dataset or description of how to obtain it]
-
-## How to Run the Code
-
-[Provide instructions on how to set up the environment, install dependencies, and run the code for each project. For example:]
-
-```bash
-# For Project 1: Sentiment Analysis
-pip install -r requirements_sentiment.txt
-python sentiment_analysis.py
-
-# For Project 3: Machine Translation
-pip install -r requirements_translation.txt
-python translate.py --source_lang en --target_lang de
